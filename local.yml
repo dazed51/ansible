@@ -16,14 +16,14 @@
   - name: Install openvpn
     dnf: name=openvpn
 
-   -name: Install vlc
+  - name: Install vlc
     dnf: name=vlc
 
-   -name: Install nmap
+  - name: Install nmap
     dnf: name=nmap
 
-   -name: Install aircrack-ng
+  - name: Install aircrack-ng
     dnf: name=aircrack-ng
 
-    -name: Install docker
+  - name: Install docker
     dnf: name=docker
