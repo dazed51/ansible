@@ -3,3 +3,6 @@
   tasks:
   - name: Install htop
     dnf: name=htop
+
+  - name: Install vim
+    dnf: name=vim
