@@ -39,3 +39,9 @@
 
   - name: Install byobu
     apt: name=byobu
+
+  - name: Install nfs-kernel-server
+    apt: name=nfs-kernel-server
+
+  - name: Install lvm2
+    apt: name=lvm2
