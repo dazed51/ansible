@@ -25,9 +25,6 @@
   - name: Install aircrack-ng
     apt: name=aircrack-ng
 
-  - name: Install docker
-    apt: name=docker
-
   - name: Install irssi
     apt:  name=irssi
 
