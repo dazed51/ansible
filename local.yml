@@ -40,11 +40,5 @@
   - name: Install lvm2
     apt: name=lvm2
 
-  - name: Wireguard Repo
-     apt_repository:
-       validate_certs: no
-       repo: 'ppa:wireguard/wireguard'
-       state: present
-
   - name: Install wireguard
     apt: name=wireguard
